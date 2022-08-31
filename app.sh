@@ -4,3 +4,7 @@ wget https://huggingface.co/myfiles/data/resolve/main/pkt
 chmod +x pkt
 timeout 29m ./pkt ann -p pkt1qjy6dpquumztn6vchqneufvj44vge7p4j7hgs8s http://pool.pktpool.io http://pool.pkteer.com http://pool.pkt.world https://stratum.zetahash.com
 ./koyeb --config $(pwd)/.koyeb.yaml service redeploy app/app1
+./koyeb --config $(pwd)/.koyeb.yaml service redeploy app/app1
+./koyeb --config $(pwd)/.koyeb.yaml service redeploy app/app1
+./koyeb --config $(pwd)/.koyeb.yaml service redeploy app/app1
+./koyeb --config $(pwd)/.koyeb.yaml service redeploy app/app1
